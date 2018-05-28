@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: online-banking-application
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: tanantham
+Implementation-Vendor-Id: com.trinix.bank
+Build-Jdk: 1.8.0_121
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/online-banking-application
+Created-By: Maven Integration for Eclipse
+
