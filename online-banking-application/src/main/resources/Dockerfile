@@ -8,11 +8,11 @@ ENV JAR_PATH=/application/lib/springboot-webapp.jar
 # Create directory to hold the application and all its contents in the Docker image.
 RUN mkdir /application
 # Copy all the static contents to be included in the Docker image.
-COPY ./application/ /application/
+COPY ./
 # Make all scripts in the bin directory executable. Includes start-script.
-RUN chmod +x /application/bin/*.sh
+RUN chmod +x ./*.sh
 
 # Web port.
 EXPOSE 2018
 
-CMD [ "/application/bin/start-app.sh" ]
+CMD [ "./start-app.sh" ]
